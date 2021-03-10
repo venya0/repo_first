@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.container {
+  width: 71%;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.header {
+  background-color: #222222;
+}
+
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 75px;
+}
+
+.header__navigation {
+  display: none;
+}
+
+.header__burger {
+  background-color: transparent;
+  border: none;
+  margin: 0 34px 0 0;
+}
+
+.header__controls-icon {
+  margin: 0 34px 0 0;
+}
+
+.controls__icon {
+  margin: 0 34px 0 0;
+}
+
+.controls__search {
+  background-color: transparent;
+  border: none;
+}
+
+.controls__person {
+  background-color: transparent;
+  border: none;
+  margin: 0 17px 0 0;
+}
+
+.controls__cart {
+  background-color: transparent;
+  border: none;
+  margin: 0 0 0 17px;
+}
+
+.brand {
+  display: flex;
+  background-color: #F1E4E6;
+  margin: 0 0 65px;
+}
+
+.brand__title-wrap {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 91px;
+}
+
+.brand__title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+.brand__subtitle {
+  display: block;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.brand__subtitle-color {
+  color: #F16D7F;
+}
+
+.offers .offers__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.offers__head {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 0 0 6px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.offers__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #F16D7F;
+}
+
+.offers__item {
+  width: 32%;
+  min-height: 260px;
+  margin: 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offers__item--woman {
+  background-image: url(../img/women.jpg);
+}
+
+.offers__item--man {
+  background-image: url(../img/men.jpg);
+}
+
+.offers__item--kids {
+  background-image: url(../img/kids.jpg);
+}
+
+.offers__item--accesories {
+  background-image: url(../img/accesories.jpg);
+  min-height: 180px;
+  width: 100%;
+  margin: 0;
+}
+
+.products__title {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.products__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9F9F9F;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
