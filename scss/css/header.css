@@ -1,0 +1,42 @@
+.header {
+  background-color: var(--black);
+}
+
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 75px;
+}
+
+.header__navigation {
+  display: none;
+}
+
+.header__burger {
+  background-color: transparent;
+  border: none;
+  margin: 0 34px 0 0;
+}
+
+.controls__icon {
+  margin: 0 34px 0 0;
+}
+
+.controls__search {
+  background-color: transparent;
+  border: none;
+}
+
+.header
+.person {
+  background-color: transparent;
+  border: none;
+  margin: 0 34px 0 0;
+}
+
+.cart {
+  background-color: transparent;
+  border: none;
+}
+/*# sourceMappingURL=header.css.map */
