@@ -1,4 +1,6 @@
 .products {
+    margin-top: 96px;
+    
     &__title {
         font-weight: normal;
         font-size: 30px;
@@ -11,5 +13,27 @@
         line-height: 17px;
         color: #9F9F9F;
         text-align: center;
+    }
+}
+.product {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__name {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5D5D;
+    }
+    &__card--wrapper {
+        width: 360px;
     }
 }

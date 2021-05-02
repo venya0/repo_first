@@ -204,6 +204,10 @@ body {
   margin: 0;
 }
 
+.products {
+  margin-top: 96px;
+}
+
 .products__title {
   font-weight: normal;
   font-size: 30px;
@@ -217,5 +221,29 @@ body {
   line-height: 17px;
   color: #9F9F9F;
   text-align: center;
+}
+
+.product__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product__name {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.product__description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+}
+
+.product__card {
+  width: 360px;
 }
 /*# sourceMappingURL=style.css.map */
